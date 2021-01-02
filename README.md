@@ -42,6 +42,6 @@ Now that you have completed your initial analysis, design a Flask API based on t
   - Return a JSON list of temperature observations (TOBS) for the previous year.
   
 - /api/v1.0/<start> and /api/v1.0/<start>/<end>
-  -Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start or start-end range.
-  -When given the start only, calculate TMIN, TAVG, and TMAX for all dates greater than and equal to the start date.
-  -When given the start and the end date, calculate the TMIN, TAVG, and TMAX for dates between the start and end date inclusive.
+  - Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start or start-end range.
+  - When given the start only, calculate TMIN, TAVG, and TMAX for all dates greater than and equal to the start date.
+  - When given the start and the end date, calculate the TMIN, TAVG, and TMAX for dates between the start and end date inclusive.
