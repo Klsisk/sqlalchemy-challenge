@@ -6,7 +6,7 @@ Climate Analysis and Data Exploration of Climate Database Using Python (Pandas, 
 ## Objectives
 
 ### Step 1 - Climate Analysis and Exploration
-Use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. All of the following analysis should be completed using SQLAlchemy ORM Queries, Pandas, and Matplotlib.
+Use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. All of the following analysis should be completed using SQLAlchemy, Pandas, and Matplotlib.
 
 ### Precipitation Analysis
 - Design a query to retrieve the last 12 months of precipitation data.
