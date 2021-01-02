@@ -16,6 +16,8 @@ Use Python and SQLAlchemy to do basic climate analysis and data exploration of y
 - Plot the results using the DataFrame plot method.
 - Use Pandas to print the summary statistics for the precipitation data.
 
+![image](https://user-images.githubusercontent.com/69765842/103467831-25e5aa80-4d21-11eb-9b51-0d218db23b9d.png)
+
 ### Station Analysis
 - Design a query to calculate the total number of stations.
 - Design a query to find the most active stations.
@@ -24,6 +26,8 @@ Use Python and SQLAlchemy to do basic climate analysis and data exploration of y
 - Design a query to retrieve the last 12 months of temperature observation data (TOBS).
   - Filter by the station with the highest number of observations.
   - Plot the results as a histogram with bins=12.
+  
+![image](https://user-images.githubusercontent.com/69765842/103467838-3007a900-4d21-11eb-9ad3-3a8008ca940c.png)
 
 ### Step 2 - Climate App
 Now that you have completed your initial analysis, design a Flask API based on the queries that you have just developed.
