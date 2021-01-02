@@ -38,14 +38,28 @@ Now that you have completed your initial analysis, design a Flask API based on t
   - Home page.
   - List all routes that are available.
   
+![image](https://user-images.githubusercontent.com/69765842/103468914-2fc0db00-4d2c-11eb-8bcd-2dfc6ac69c51.png)
+
+- /api/v1.0/precipitation
+  - Convert the query results to a dictionary using date as the key and prcp as the value.
+  - Return the JSON representation of your dictionary.
+
+![image](https://user-images.githubusercontent.com/69765842/103468917-3d766080-4d2c-11eb-9dbc-6d3b5b13bd44.png)
+  
 - /api/v1.0/stations
   - Return a JSON list of stations from the dataset.
+
+![image](https://user-images.githubusercontent.com/69765842/103468919-45ce9b80-4d2c-11eb-8ff7-7eaa60db0a15.png)
   
 - /api/v1.0/tobs
   - Query the dates and temperature observations of the most active station for the last year of data.
   - Return a JSON list of temperature observations (TOBS) for the previous year.
   
+![image](https://user-images.githubusercontent.com/69765842/103468924-4ff09a00-4d2c-11eb-9b06-58e73d32a152.png)
+  
 - /api/v1.0/<start> and /api/v1.0/<start>/<end>
   - Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start or start-end range.
   - When given the start only, calculate TMIN, TAVG, and TMAX for all dates greater than and equal to the start date.
   - When given the start and the end date, calculate the TMIN, TAVG, and TMAX for dates between the start and end date inclusive.
+   
+![image](https://user-images.githubusercontent.com/69765842/103468930-5717a800-4d2c-11eb-959e-398e6bdb535c.png)
