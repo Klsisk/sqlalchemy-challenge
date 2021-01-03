@@ -62,4 +62,5 @@ Now that you have completed your initial analysis, design a Flask API based on t
   - When given the start only, calculate TMIN, TAVG, and TMAX for all dates greater than and equal to the start date.
   - When given the start and the end date, calculate the TMIN, TAVG, and TMAX for dates between the start and end date inclusive.
    
-![image](https://user-images.githubusercontent.com/69765842/103468930-5717a800-4d2c-11eb-959e-398e6bdb535c.png)
+![image](https://user-images.githubusercontent.com/69765842/103468975-e7ee8380-4d2c-11eb-9160-7d40bf53db25.png)
+
